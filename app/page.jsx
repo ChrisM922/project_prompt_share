@@ -8,7 +8,7 @@ const Home = () => {
         <br className='max-md:hidden' />
         <span className='orange_gradient text-center'>AI-Powered Promps</span>
       </h1>
-      <p>
+      <p className='mt-10'>
         PromptShare is an open-source AI prompting tool for the world to
         discover, create and share creative prompts
       </p>
