@@ -1,5 +1,3 @@
-"use client";
-
 import styles from "@styles/globals.css";
 import { Children } from "react";
 import Nav from "@components/Nav";
