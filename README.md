@@ -87,9 +87,10 @@ AI Prompt Share welcomes contributions from the community. To contribute to the 
    git push
   ```
 
-5. **Submit a pull request**: Go to the original repository on GitHub and submit a pull request to have your modifications reviewed and merged into the main repository. Provide a clear and concise explanation of the changes you've made in the pull request description.
-Please ensure that your contributions align with the project's guidelines and that any new features or changes are thoroughly tested.
+5. **Submit a pull request**: Go to the original repository on GitHub and submit a pull request to have your modifications reviewed and merged into the main repository. Provide a clear and
+   concise explanation of the changes you've made in the pull request description.
+   Please ensure that your contributions align with the project's guidelines and that any new features or changes are thoroughly tested.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). By contributing to this repository, you agree to license your contributions under the same license.
+   This project is licensed under the [MIT License](LICENSE). By contributing to this repository, you agree to license your contributions under the same license.
