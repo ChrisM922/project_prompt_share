@@ -27,21 +27,25 @@ This repository is based on the project developed by [JavaScript Mastery](https:
 
 To get started with AI Prompt Share, follow these steps:
 
-1. **Clone the repository**: Begin by cloning this repository to your local machine using the following command:
+1. **Clone the repository**:
+   Begin by cloning this repository to your local machine using the following command:
 
    ```bash
    git clone https://github.com/ChrisM922/project_prompt_share.git
    ```
-2. **Install dependencies**: Navigate to the root directory of the project and install the required dependencies by running the following command:
+3. **Install dependencies**:
+    Navigate to the root directory of the project and install the required dependencies by running the following command:
    ```bash
    npm install
    ```
-3. **Set up MongoDB**: AI Prompt Share uses MongoDB as its database. Follow these instructions to set up MongoDB locally:
+5. **Set up MongoDB**:
+   AI Prompt Share uses MongoDB as its database. Follow these instructions to set up MongoDB locally:
    - Install MongoDB on your machine by following the official [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
    - Start the MongoDB server by running the appropriate command for your operating system.
    - Update the database connection settings in the project's configuration file (config/database.js) and .env file, to match your MongoDB configuration.
 
-6. **Set up Google Cloud OAuth**: AI Prompt Share uses Google Cloud OAuth for user authentication. Follow these instructions to set up Google Cloud OAuth:
+7. **Set up Google Cloud OAuth**:
+   AI Prompt Share uses Google Cloud OAuth for user authentication. Follow these instructions to set up Google Cloud OAuth:
    - Create a new project in the [Google Cloud Console](https://console.cloud.google.com/).
    - Enable the Google OAuth API for your project.
    - Set up OAuth consent screen by providing the necessary information.
@@ -49,11 +53,13 @@ To get started with AI Prompt Share, follow these steps:
    - Obtain the client ID and client secret.
    - Update the OAuth client configuration in the project's configuration file (app/api/[...nextauth]/route.js) or with your .env file with client ID and client secret.
 
-5. **Start the server**: Launch the server by running the following command:
+5. **Start the server**:
+   Launch the server by running the following command:
      ```bash
      npm run dev
      ```
-6. **Access the application**: Once the server is up and running, you can access the AI Prompt Share application by opening your web browser and navigating to the specified URL.
+7. **Access the application**:
+   Once the server is up and running, you can access the AI Prompt Share application by opening your web browser and navigating to the specified URL.
 
 ## Usage
 
