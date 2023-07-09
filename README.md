@@ -83,9 +83,13 @@ AI Prompt Share welcomes contributions from the community. To contribute to the 
 
    ```bash
    git add .
+   ```
+   ```bash
    git commit -m "Your commit message"
+   ```
+   ```bash
    git push
-  ```
+   ```
 
 5. **Submit a pull request**: Go to the original repository on GitHub and submit a pull request to have your modifications reviewed and merged into the main repository. Provide a clear and
    concise explanation of the changes you've made in the pull request description.
