@@ -37,19 +37,17 @@ To get started with AI Prompt Share, follow these steps:
    npm install
    ```
 3. **Set up MongoDB**: AI Prompt Share uses MongoDB as its database. Follow these instructions to set up MongoDB locally:
+   - Install MongoDB on your machine by following the official [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
+   - Start the MongoDB server by running the appropriate command for your operating system.
+   - Update the database connection settings in the project's configuration file (config/database.js) and .env file, to match your MongoDB configuration.
 
-Install MongoDB on your machine by following the official [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
-Start the MongoDB server by running the appropriate command for your operating system.
-Update the database connection settings in the project's configuration file (config/database.js) and .env file, to match your MongoDB configuration.
-
-4. **Set up Google Cloud OAuth**: AI Prompt Share uses Google Cloud OAuth for user authentication. Follow these instructions to set up Google Cloud OAuth:
-
-Create a new project in the [Google Cloud Console](https://console.cloud.google.com/).
-Enable the Google OAuth API for your project.
-Set up OAuth consent screen by providing the necessary information.
-Create credentials (OAuth 2.0 client ID) for your application.
-Obtain the client ID and client secret.
-Update the OAuth client configuration in the project's configuration file (app/api/[...nextauth]/route.js) or with your .env file with client ID and client secret.
+6. **Set up Google Cloud OAuth**: AI Prompt Share uses Google Cloud OAuth for user authentication. Follow these instructions to set up Google Cloud OAuth:
+   - Create a new project in the [Google Cloud Console](https://console.cloud.google.com/).
+   - Enable the Google OAuth API for your project.
+   - Set up OAuth consent screen by providing the necessary information.
+   - Create credentials (OAuth 2.0 client ID) for your application.
+   - Obtain the client ID and client secret.
+   - Update the OAuth client configuration in the project's configuration file (app/api/[...nextauth]/route.js) or with your .env file with client ID and client secret.
 
 5. **Start the server**: Launch the server by running the following command:
      ```bash
