@@ -14,7 +14,7 @@
     "dotenv": "^16.3.1",
     "eslint-config-next": "^14.2.3",
     "mongodb": "^5.8.0",
-    "mongoose": "^8.8.3",
+    "mongoose": "^8.9.5",
     "next": "^14.2.20",
     "next-auth": "^4.24.11",
     "postcss": "8.4.31",
